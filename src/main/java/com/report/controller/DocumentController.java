@@ -22,7 +22,7 @@ public class DocumentController {
 
 	@RequestMapping("/home")
 	public String handleHomePage() {
-		System.out.println("/home request")
+		System.out.println("/home request");
 		return "index";
 	}
 
